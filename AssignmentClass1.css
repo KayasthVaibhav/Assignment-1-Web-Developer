@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;   
+}
+body{
+    background-image: url(Assignment\ class\ background\ image.png);
+    height: 100%;
+    width: 100%;
+
+}
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-bar img{
+    padding: 25px;
+    width: 150px;
+    height: 100%;
+    margin-right: 230px;
+
+}
+.navigation-bar div ul{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    gap: 100px;
+}
+.navigation-bar div ul li{
+    color: #fa9617;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+.navigation-bar div ul li:hover{
+    color: #fa9617;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 2px solid #fa9617;
+    background-color: rgb(103, 225, 184);
+
+}
+.navigation-bar button{
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.navigation-bar button:hover{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 2px solid rgb(113, 225, 103);   
+    background-color: rgb(113, 225, 103);
+}
+.bottom-contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bottom-contant p{
+    font-weight: 600;
+    font-size: 70px;
+    color: #ffad18;
+    
+}
+.btn{
+    background-color: red;
+    padding: 15px 40px;
+    cursor: pointer;
+    color: white;
+    border: 2px solid red;
+    font-weight: 300;
+    width: fit-content;
+    margin: 22px 450px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    border: 2px solid rgb(113, 225, 103);   
+    background-color: rgb(87, 232, 74);
+    padding: 15px 40px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-weight: 600;
+    width: fit-content;
+    margin: 22px 450px;
+    font-size: 30px;
+    border-radius: 5px;
+
+}
+footer img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 140px;
+    margin-right: 20px;
+    margin-inline-start: auto;
+}
